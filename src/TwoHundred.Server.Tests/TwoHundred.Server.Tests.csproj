@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk"/>
+    <PackageReference Include="Moq"/>
+    <PackageReference Include="NUnit"/>
+    <PackageReference Include="NUnit3TestAdapter"/>
+    <PackageReference Include="NUnit.Analyzers"/>
+    <PackageReference Include="coverlet.collector"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TwoHundred.Server\TwoHundred.Server.csproj" />
+  </ItemGroup>
+</Project>
